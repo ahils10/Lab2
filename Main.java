@@ -2,13 +2,13 @@ class Main {
   public static void main(String[] args) {
     System.out.println("M&M Color Counts");
 
+    int total = 55 * 11;
     double blue = total * .24;
     double brown = total * .13;
     double green = total * .16;
     double orange = total * .2;
     double red = total * .13;
     double yellow = total * .14;
-    int total = 55 * 11;
 
     System.out.println("blue: " + blue);
     System.out.println("brown: " + brown);
